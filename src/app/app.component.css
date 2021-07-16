@@ -1,0 +1,14 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+mat-sidenav-container {
+  height: 100%;
+}
+mat-sidenav {
+  width: 12rem;
+}
+body {
+  width: 100%;
+
+}
