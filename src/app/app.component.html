@@ -1,0 +1,12 @@
+<mat-sidenav-container>
+  <mat-sidenav #sideNav role="navigation">
+      <app-sidenav (onCloseSideNav)="sideNav.close()"></app-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content >
+      <app-header (onSideNavToggle)="sideNav.toggle()"></app-header>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
